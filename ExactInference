@@ -1,0 +1,10 @@
+P(Meltdown | PumpFailureWarning=F, WaterLeak=F, WaterLeakWarning=F, IcyWeather=F)
+
+X = {Meltdown}
+E = {PumpFailureWarning, WaterLeak, WaterLeakWarning, IcyWeather}
+e = {PumpFailureWarning=F, WaterLeak=F, WaterLeakWarning=F, IcyWeather=F}
+Y = {PumpFailure}
+
+P(Meltdown | PumpFailureWarning, WaterLeak, WaterLeakWarning, IcyWeather) = α*P(Meltdonwm, PumpFailureWarning, WaterLeak, WaterLeakWarning, IcyWeather)
+
+P()
